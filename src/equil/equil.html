@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+  <title>ChemApps</title>
+  <script type="text/javascript" src="./equil.js"></script>
+  <script type="text/javascript" src="./start.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="/src/index.html">Home</a>
+    <a href="/src/apps.html">Apps</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="main">
+    <h1>Equilibrium Calculator!</h1>
+
+    <input id="massA" type="number" />
+    Mass<sub>A</sub> (g)
+    <br />
+    <input id="massB" type="number" />
+    Mass<sub>B</sub> (g)
+    <br />
+    <input id="tempA" type="number" />
+    Temperature<sub>A</sub> (<sup>o</sup>C)
+    <br />
+    <input id="tempB" type="number" />
+    Temperature<sub>B</sub> (<sup>o</sup>C)
+    <br />
+    <input id="cA" type="number" />
+    Specific Heat<sub>A</sub> J/g<sup>o</sup>C
+    <br />
+    <input id="cB" type="number" />
+    Specific Heat<sub>B</sub> J/g<sup>o</sup>C
+    <br />
+    <div
+      id="answer"
+      style="width: 170px; height: 23px; border: 1px solid #000;"
+    >
+      This is a rectangle!
+    </div>
+    <button class="do-math">*Magic*</button>
+  </div>
+</body>
